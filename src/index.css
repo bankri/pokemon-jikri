@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(160deg, #0f0c29, #302b63, #24243e);
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  color: #00ffd9;
+  text-shadow: 0 0 6px #00fff2;
+}
+
+.pokemon-card {
+  position: relative;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-6px);
+}
+
+.pokemon-img {
+  width: 120px;
+  height: 120px;
+}
+
+.types {
+  margin-top: 8px;
+}
+
+.type-badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.2);
+  padding: 4px 10px;
+  border-radius: 8px;
+  margin: 4px;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.description-hover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #eee;
+  font-size: 0.85rem;
+  padding: 10px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+  text-align: left;
+  z-index: 10;
+}
+
+.pokemon-card:hover .description-hover {
+  transform: translateY(0);
+}

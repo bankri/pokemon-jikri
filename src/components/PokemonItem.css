@@ -1,0 +1,19 @@
+.card {
+  padding: 20px;
+  border-radius: 16px;
+  color: white;
+  text-align: center;
+  width: 220px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 120px;
+  height: 120px;
+}
+.types span {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #fff;
+}
