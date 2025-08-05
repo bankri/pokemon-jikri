@@ -1,2 +1,2 @@
 # pokemon-jikri
-web pokemon jikri
+https://pokemon-jack.netlify.app/
